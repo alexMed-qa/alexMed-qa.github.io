@@ -153,8 +153,14 @@ header {
 .stack_icons {
     width: 25%;
     margin:  0 10px;
+    transition: 0.4s;
 }
 
+.stack_icons:hover {
+    scale: 1.15;
+    transition: 0.4s;
+}
+    
 footer {
     display: flex;
     justify-content: space-between;
@@ -163,6 +169,7 @@ footer {
     width: 100%;
     background-color: rgb(33, 33, 33);
 }
+
 
 .left_text{
     display: flex;
