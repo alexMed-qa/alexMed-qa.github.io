@@ -157,8 +157,8 @@ header {
 }
 
 .stack_icons:hover {
-    scale: 1.15;
     transition: 0.4s;
+    scale: 1.15;
 }
     
 footer {
