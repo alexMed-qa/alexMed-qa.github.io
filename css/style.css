@@ -186,13 +186,21 @@ footer {
     font-size: 20px;
 }
 
-.right_text{
+.right_text {
+    display: block;
     text-decoration: none;
     padding-right: 50px;
     color: #d5d5d5;
     font-size: 20px;
+    transition: 0.4s;
 }
 
+.right_text:hover {
+    font-size: 23px;
+    padding-right: 24px;
+    transition: 0.4s;
+    text-shadow:#d5d5d5 0 0 15px;
+}
 
 .contacts {
     width: 40%;
